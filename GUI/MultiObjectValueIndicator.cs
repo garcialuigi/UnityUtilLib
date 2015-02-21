@@ -12,8 +12,8 @@ namespace UnityUtilLib.GUI {
 		/// The game controller.
 		/// </summary>
 		[SerializeField]
-		private AbstractDanmakuGameController gameController;
-		protected AbstractDanmakuGameController GameController {
+		private AbstractGameController gameController;
+		protected AbstractGameController GameController {
 			get {
 				return gameController;
 			}
